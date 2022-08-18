@@ -1,0 +1,109 @@
+.Fpage2{
+    width: 60%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.Fpage2 input{
+    font-size: 1rem;
+    padding: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    outline: none;
+}
+
+.inpt{
+    display:flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 50px;
+    transition: transform .25s ease-out;
+    word-wrap: break-word;
+}
+
+
+.inpt:hover{
+    transition: ease-out;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow:2px 4px 8px 4px whitesmoke ;
+}
+
+.inpt1{
+    width:40px;
+    margin-left: 10px;
+}
+
+#search{
+    vertical-align: middle;
+    opacity: 50%;
+}
+
+.inpt2{
+    margin-right: 10px;
+    vertical-align: middle;   
+    width:50px;
+}
+
+#voice{
+    width: 50px;
+    vertical-align: middle;
+}
+
+.Fpage2 button{
+    margin-top: 10px;
+    padding: 15px;
+    width: 220px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 9px 0px black;
+    transition: o.3s;
+    -webkit-transition: o.3s;
+    -moz-transition: o.3s;
+    -ms-transition: o.3s;
+    -o-transition: o.3s;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;    
+  }
+  
+  .Fpage2 button:hover{
+    background:rgb(64, 67, 67);
+    color: white;
+  }
+
+.Fpage2 span{
+    line-height: 50px;
+    color: blue;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.Fpage2 img{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .Fpage2{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Fpage2 button{
+        margin-top: 10px;
+        width: 40%;
+    }
+}

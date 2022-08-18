@@ -1,0 +1,38 @@
+.Navb {
+    display: flex;   
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+
+.Navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.Navb img{
+    width: 30px;
+}
+.Navb button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    border-radius: 70px ;
+    border: 2px solid rgb(161, 33, 33);
+    transition: o.3s;
+    -webkit-transition: o.3s;
+    -moz-transition: o.3s;
+    -ms-transition: o.3s;
+    -o-transition: o.3s;
+    cursor: pointer;
+   
+  }
+  
+  .Navb button:hover{
+    background-color: whitesmoke;
+    color: black;
+  }
