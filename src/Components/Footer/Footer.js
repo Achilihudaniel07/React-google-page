@@ -8,7 +8,7 @@ function Footer() {
       <h3>Nigeria</h3>
       <hr/>
 
-      <p><img src ={carbon2}/> Carbon neutral since 2007</p>
+      <p><img src ={carbon2} alt="leaf"/> Carbon neutral since 2007</p>
       <div className="Footer1"> 
       
    
